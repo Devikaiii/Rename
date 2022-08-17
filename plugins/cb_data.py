@@ -83,7 +83,7 @@ async def doc(bot,update):
                     thumb=ph_path, 
                     caption=caption, 
                     progress=progress_for_pyrogram,
-                    progress_args=( "𝚃𝚁𝚈𝙸𝙽𝙶 𝚃𝙾 𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶....",  ms, c_time   ))
+                    progress_args=( "Tʀʏɪɴɢ Tᴏ Uᴘʟᴏᴀᴅɪɴɢ....",  ms, c_time   ))
         elif type == "video": 
             await bot.send_video(
 		    update.message.chat.id,
@@ -92,7 +92,7 @@ async def doc(bot,update):
 		    thumb=ph_path,
 		    duration=duration,
 		    progress=progress_for_pyrogram,
-		    progress_args=( "𝚃𝚁𝚈𝙸𝙽𝙶 𝚃𝙾 𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶....",  ms, c_time))
+		    progress_args=( "Tʀʏɪɴɢ Tᴏ Uᴘʟᴏᴀᴅɪɴɢ....",  ms, c_time))
         elif type == "audio": 
             await bot.send_audio(
 		    update.message.chat.id,
@@ -101,7 +101,7 @@ async def doc(bot,update):
 		    thumb=ph_path,
 		    duration=duration,
 		    progress=progress_for_pyrogram,
-		    progress_args=( "𝚃𝚁𝚈𝙸𝙽𝙶 𝚃𝙾 𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶....",  ms, c_time   )) 
+		    progress_args=( "Tʀʏɪɴɢ Tᴏ Uᴘʟᴏᴀᴅɪɴɢ....",  ms, c_time   )) 
      except Exception as e: 
          await ms.edit(e) 
          os.remove(file_path)
