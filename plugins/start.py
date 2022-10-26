@@ -92,7 +92,7 @@ async def start(client, message):
                 InlineKeyboardButton('👨‍💻 ᴅᴇᴠᴏʟᴏᴘᴇʀs', url='https://t.me/ddrabit')
             ]
             ]
-    text = f"👋🏻 Hᴇʟʟᴏ {message.from_user.mention}\n\nIᴍ ᴀɴ ᴀwsᴏᴍᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴇɴᴀɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ\n\nPʀᴇss ʜᴇʟᴘ ᴛᴏ sᴇᴇ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ʜᴏᴡ ᴛʜᴇʏ ᴡᴏʀᴋ...\n\nMᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: [LᴀL](https://t.me/ddrabit)"
+    text = f"👋🏻 Hᴇʟʟᴏ {message.from_user.mention}\n\nIᴍ ᴀɴ ᴀwsᴏᴍᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴇɴᴀɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ\n\nPʀᴇss ʜᴇʟᴘ ᴛᴏ sᴇᴇ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs...\n\nMᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: [LᴀL](https://t.me/ddrabit)"
     await message.reply_text(text=text, reply_markup=InlineKeyboardMarkup(buttons))
 
 @Client.on_callback_query()
@@ -115,12 +115,12 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("😬 Sᴏᴜʀᴄᴇ", url="https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT")
+               InlineKeyboardButton("", url="https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT")
                ],[
-               InlineKeyboardButton("💥 CS - Tᴇᴀᴍ Cʜᴀɴɴᴇʟ 💥", url='https://t.me/CS_TeamTG')
+               InlineKeyboardButton("", url='https://t.me/CS_TeamTG')
                ],[
-               InlineKeyboardButton("🔒 Cʟᴏsᴇ", callback_data = "close"),
-               InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "arun")
+               InlineKeyboardButton("", callback_data = "close"),
+               InlineKeyboardButton("« Back", callback_data = "start")
                ]]
             )
         )
@@ -130,11 +130,11 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("😬 Sᴏᴜʀᴄᴇ", url="https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT")
+               InlineKeyboardButton("", url="https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT")
                ],[
-               InlineKeyboardButton("💥 CS - Tᴇᴀᴍ Cʜᴀɴɴᴇʟ 💥", url="https://t.me/CS_TeamTG")
+               InlineKeyboardButton("", url="https://t.me/CS_TeamTG")
                ],[
-               InlineKeyboardButton("🔒 Cʟᴏsᴇ", callback_data = "close"),
+               InlineKeyboardButton("", callback_data = "close"),
                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
                ]]
             )
