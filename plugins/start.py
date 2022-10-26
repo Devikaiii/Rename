@@ -115,8 +115,8 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("ʀᴇɴᴀᴍᴇ", callback_data= "rname")
-               InlineKeyboardButton("ᴛʜᴜᴍʙɴᴀɪʟ", callback_data= 'thembnail')
+               InlineKeyboardButton("ʀᴇɴᴀᴍᴇ", callback_data = "rname")
+               InlineKeyboardButton("ᴛʜᴜᴍʙɴᴀɪʟ", callback_data = 'thembnail')
                ],[
                InlineKeyboardButton("ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ", callback_data = "cuscap")
                ],[
