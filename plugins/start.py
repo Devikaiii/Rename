@@ -82,7 +82,7 @@ async def rename_start(client, message):
         pass
 
 @Client.on_message(filters.command(command=["arun"]) & filters.private)
-async def welcome(client,message):
+async def start(client, message):
     buttons  = [[ InlineKeyboardButton(text="help", callback_data = "help") ]]
     text = "send a file to get started"
     await message.reply_text(text=text, reply_markup=InlineKeyboardMarkup(buttons))
