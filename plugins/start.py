@@ -36,8 +36,8 @@ START_PIC = environ.get("START_PIC", "")
 
 @Client.on_message(filters.private & filters.create(not_subscribed))
 async def is_not_subscribed(client, message):
-    buttons = [[ InlineKeyboardButton(text="📢 Jᴏɪɴ Mʏ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 📢", url=client.invitelink) ]]
-    text = "**Sᴏʀʀʏ Dᴜᴅᴇ Yᴏᴜʀ Nᴏᴛ Jᴏɪɴᴅ Mʏ Cʜᴀɴɴᴇʟ 😔. Pʟᴇᴀsᴇ Jᴏɪɴ Mʏ Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Tʜɪs Bᴏᴛ 🙏 **"
+    buttons = [[ InlineKeyboardButton(text="📢 Join Channel", url=client.invitelink) ]]
+    text = "**Join our Updates Chanel To Use This Bot.**"
     await message.reply_text(text=text, reply_markup=InlineKeyboardMarkup(buttons))
            
 @Client.on_message(filters.private & filters.command(["hence"]))
@@ -68,15 +68,15 @@ async def rename_start(client, message):
     fileid = file.file_id
     try:
         text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
-        buttons = [[ InlineKeyboardButton("📝 Sᴛᴀʀᴛ Rᴇɴᴀᴍᴇ 📝", callback_data="rename") ],
-                   [ InlineKeyboardButton("✖️ Cᴀɴᴄᴇʟ ✖️", callback_data="cancel") ]]
+        buttons = [[ InlineKeyboardButton("📝 𝗥𝗘𝗡𝗔𝗠𝗘", callback_data="rename") ],
+                   [ InlineKeyboardButton("❌ 𝗖𝗔𝗡𝗖𝗘𝗟", callback_data="cancel") ]]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
         await sleep(FLOOD)
     except FloodWait as e:
         await sleep(e.x)
         text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
-        buttons = [[ InlineKeyboardButton("📝 Sᴛᴀʀᴛ Rᴇɴᴀᴍᴇ 📝", callback_data="rename") ],
-                   [ InlineKeyboardButton("✖️ Cᴀɴᴄᴇʟ ✖️", callback_data="cancel") ]]
+        buttons = [[ InlineKeyboardButton("📝 𝗥𝗘𝗡𝗔𝗠𝗘", callback_data="rename") ],
+                   [ InlineKeyboardButton("❌ 𝗖𝗔𝗡𝗖𝗘𝗟", callback_data="cancel") ]]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
     except:
         pass
@@ -100,7 +100,7 @@ async def cb_handler(client, query: CallbackQuery):
     data = query.data 
     if data == "start":
         await query.message.edit_text(
-            text=f"""👋🏻 Hᴇʟʟᴏ {query.from_user.mention}\n\nIᴍ ᴀɴ ᴀwsᴏᴍᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴇɴᴀɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ\n\nPʀᴇss ʜᴇʟᴘ ᴛᴏ sᴇᴇ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ʜᴏᴡ ᴛʜᴇʏ ᴡᴏʀᴋ...\n\nMᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: [LᴀL](https://t.me/ddrabit)""",
+            text=f"""👋🏻 Hᴇʟʟᴏ {query.from_user.mention}\n\nIᴍ ᴀɴ ᴀwsᴏᴍᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴇɴᴀɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ\n\nPʀᴇss ʜᴇʟᴘ ᴛᴏ sᴇᴇ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs...\n\nMᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: [LᴀL](https://t.me/ddrabit)""",
             reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
                 InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
