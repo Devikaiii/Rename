@@ -83,7 +83,7 @@ async def rename_start(client, message):
 
 @Client.on_message(filters.private & filters.command(["start"]))
 async def start(client, message):
-    buttons  = [
+    buttons = [
             [
                 InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
                 InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
