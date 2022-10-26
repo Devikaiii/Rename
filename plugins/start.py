@@ -81,7 +81,7 @@ async def rename_start(client, message):
     except:
         pass
 
-@Client.on_message(filters.command(command=["arun"]) & filters.private)
+@Client.on_message(filters.private & filters.command(["arun"]))
 async def start(client, message):
     buttons  = [[ InlineKeyboardButton(text="help", callback_data = "help") ]]
     text = "send a file to get started"
