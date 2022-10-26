@@ -83,7 +83,15 @@ async def rename_start(client, message):
 
 @Client.on_message(filters.private & filters.command(["start"]))
 async def start(client, message):
-    buttons  = [[ InlineKeyboardButton(text="help", callback_data = "help") ]]
+    buttons  = [
+            [
+                InlineKeyboardButton('support', url='https://t.me/mksupport1'),
+                InlineKeyboardButton('channel', url='https://t.me/mksupport1')
+            ],
+            [
+                InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/mksupport1')
+            ]
+            ]
     text = "send a file to get started"
     await message.reply_text(text=text, reply_markup=InlineKeyboardMarkup(buttons))
 
