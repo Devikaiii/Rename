@@ -61,7 +61,7 @@ NB: Extentions is not required."""
 
     THUMB_TXT = """<b>🗂️ Thumbnail</b>
 
-Send an image it will be saved as your permenamt thumbnail.
+Send an image it will be saved as your Permenamt Thumbnail.
 
 <b>Commands and usage:</b>
 
@@ -79,6 +79,6 @@ You can customize the caption for files. And set any thing you want
 /see_caption - See Custom Caption 
 /del_caption - Delete Custom Caption
 
-Available Keys: {filename} , {filesize} , {Duration}
+Available Keys: filename , filesize , Duration
 
-eg: /set_caption <b>{filename}</b>"""
+eg: <code>/set_caption {filename}</code>"""
