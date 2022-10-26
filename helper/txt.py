@@ -52,3 +52,33 @@ class mr(object):
 /del_caption - Delete Custom Caption
 """
     DEV_TXT = """Hi hello"""
+
+RNAME_TXT = """<b>📝 Rename</b>
+
+Send your file and select rename option and enter a new name for your file.
+
+NB: Extentions is not required."""
+
+THUMB_TXT = """<b>🗂️ Thumbnail</b>
+
+Send an image it will be saved as your permenamt thumbnail.
+
+<b>Commands and usage:</b>
+
+/set_thumb - Set Thumbnail
+/viewthumb - View Thumbnail 
+/delthumb - Delete Thumbnail"""
+
+CUS_TXT = """<b>📁 File Caption.</b>
+
+You can customize the caption for files. And set any thing you want
+
+<b>Commands and Usage:</b>
+
+/set_caption - Set a Custom Caption 
+/see_caption - See Custom Caption 
+/del_caption - Delete Custom Caption
+
+Available Keys: {filename} , {filesize} , {Duration}
+
+eg: /set_caption <b>{filename}</b>"""
