@@ -52,8 +52,8 @@ Source Code: <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>Pyro Rena
     DEV_TXT = """
 <b><u>Special Thanks & Developers</b></u> 
 
-» Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : <a href=https://github.com/ChristeenaAchu/Pyro-ReName-BotV29>CS - Tᴇᴀᴍ Rᴇɴᴀᴍᴇ Bᴏᴛ</a>
-» Rᴇᴀʟ Rᴇᴘᴏ : <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>Pʏʀᴏ Rᴇɴᴀᴍᴇ Bᴏᴛ</a>
+Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : <a href=https://github.com/ChristeenaAchu/Pyro-ReName-BotV29>CS - Tᴇᴀᴍ Rᴇɴᴀᴍᴇ Bᴏᴛ</a>
+Rᴇᴀʟ Rᴇᴘᴏ : <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>Pʏʀᴏ Rᴇɴᴀᴍᴇ Bᴏᴛ</a>
 
 • ❣️ <a href=https://t.me/ddrabit>Bʟᴇʙᴇʀ</a>
 • ❣️ <a href=https://t.me/Heyboy2004>Hᴇʏ Bᴏʏ</a>
