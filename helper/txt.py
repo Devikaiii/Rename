@@ -49,4 +49,5 @@ Source Code: <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>Pyro Rena
 /set_caption - Set a Custom Caption 
 /see_caption - See Custom Caption 
 /del_caption - Delete Custom Caption
+"""
     DEV_TXT = """Hi hello"""
