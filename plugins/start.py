@@ -89,7 +89,7 @@ async def start(client, message):
                 InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
             ],
             [
-                InlineKeyboardButton('🧞‍♂️ ᴄʀᴇᴀᴛᴏʀ', url='https://t.me/ddrabit')
+                InlineKeyboardButton('🧞‍♂️ ᴅᴇᴠᴏʟᴏᴘᴇʀ', url='https://t.me/ddrabit/19')
             ]
             ]
     text = f"👋🏻 Hᴇʟʟᴏ {message.from_user.mention}\n\nIᴍ ᴀɴ ᴀwsᴏᴍᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴇɴᴀɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ\n\nPʀᴇss ʜᴇʟᴘ ᴛᴏ sᴇᴇ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs...\n\nMᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: [LᴀL](https://t.me/ddrabit)"
@@ -105,7 +105,7 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
                 InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                InlineKeyboardButton('🧞‍♂️ ᴄʀᴇᴀᴛᴏʀ', url='https://t.me/ddrabit')
+                InlineKeyboardButton('🧞‍♂️ ᴅᴇᴠᴏʟᴏᴘᴇʀ', url='https://t.me/ddrabit/19')
                 ]]
                 )
             )
