@@ -81,9 +81,11 @@ async def rename_start(client, message):
     except:
         pass
 
-@Client.on_message(filters.command(commands=["hex"]) & filters.private)
-async def welcome(client, message):
-    message.reply.text(text="Just send me a file.")
+@Client.on_message(filters.command(command=["arun"]) & filters.private)
+async def welcome(client,message):
+    buttons  = [[ InlineKeyboardButton(text="help", callback_data = "help") ]]
+    text = "send a file to get started"
+    await message.reply_text(text=text, reply_markup=InlineKeyboardMarkup(buttons))
 
 @Client.on_callback_query()
 async def cb_handler(client, query: CallbackQuery):
