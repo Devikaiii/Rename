@@ -39,7 +39,8 @@ Creator: <a href=https://t.me/ddrabit>LᴀL</a>
 Language: <a href=https://www.python.org>Python 3</a>
 Data Base: <a href=https://cloud.mongodb.com>MongoDB</a>
 Bot Server: <a href=https://dashboard.heroku.com>Heroku</a>       
-Source Code: <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>Pyro Rename Bot</a>
+Source Code: <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>Pyro Rename Bot</a></b>
+
                                 """
     HELP_TXT = """
 /set_thumb - Set Custon Thumbnail
