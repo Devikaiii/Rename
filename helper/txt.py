@@ -34,12 +34,12 @@ class mr(object):
 
     ABOUT_TXT = """
 
-<b>◎ Nᴀᴍᴇ: <a href=http://t.me/cv_rename_bot?start=start>Rᴇɴᴀᴍᴇ Bᴏᴛ</a>
+◎ Nᴀᴍᴇ: <a href=http://t.me/cv_rename_bot?start=start>Rᴇɴᴀᴍᴇ Bᴏᴛ</a>
 ◎ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/ddrabit>LᴀL</a>
 ◎ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
 ◎ Dᴀᴛᴀ Bᴀsᴇ: Mᴏɴɢᴏ DB
 ◎ Bᴏᴛ Sᴇʀᴠᴇʀ: Hᴇʀᴏᴋᴜ
-◎ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ: <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>Cʟɪᴄᴋ Hᴇʀᴇ</a></b>
+◎ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ: <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>Cʟɪᴄᴋ Hᴇʀᴇ</a>
 
                                 """
     HELP_TXT = """Welcome to the help menu."""
