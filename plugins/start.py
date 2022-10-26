@@ -139,6 +139,45 @@ async def cb_handler(client, query: CallbackQuery):
                ]]
             )
         )
+    elif data == "rname":
+        await query.message.edit_text(
+            text=mr.RNAME_TXT,
+            reply_markup=InlineKeyboardMarkup( [[
+               InlineKeyboardButton("", url="https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT")
+               ],[
+               InlineKeyboardButton("", url="https://t.me/CS_TeamTG")
+               ],[
+               InlineKeyboardButton("", callback_data = "close"),
+               InlineKeyboardButton("« Back", callback_data = "start")
+               ]]
+            )
+        )
+    elif data == "thembnail":
+        await query.message.edit_text(
+            text=mr.THUMB_TXT,
+            reply_markup=InlineKeyboardMarkup( [[
+               InlineKeyboardButton("", url="https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT")
+               ],[
+               InlineKeyboardButton("", url="https://t.me/CS_TeamTG")
+               ],[
+               InlineKeyboardButton("", callback_data = "close"),
+               InlineKeyboardButton("«Back", callback_data = "start")
+               ]]
+            )
+        )
+    elif data == "cuscap":
+        await query.message.edit_text(
+            text=mr.CUS_TXT,
+            reply_markup=InlineKeyboardMarkup( [[
+               InlineKeyboardButton("", url="https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT")
+               ],[
+               InlineKeyboardButton("", url="https://t.me/CS_TeamTG")
+               ],[
+               InlineKeyboardButton("", callback_data = "close"),
+               InlineKeyboardButton("«Back", callback_data = "start")
+               ]]
+            )
+        )
     elif data == "dev":
         await query.message.edit_text(
             text=mr.DEV_TXT,
