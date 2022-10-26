@@ -85,30 +85,30 @@ async def rename_start(client, message):
 async def start(client, message):
     buttons  = [
             [
-                InlineKeyboardButton('support', url='https://t.me/mksupport1'),
-                InlineKeyboardButton('channel', url='https://t.me/mksupport1')
+                InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
+                InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
             ],
             [
-                InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/mksupport1')
+                InlineKeyboardButton('👨‍💻 ᴅᴇᴠᴏʟᴏᴘᴇʀs', url='https://t.me/ddrabit')
             ]
             ]
-    text = "👋🏻 Hᴇʟʟᴏ LᴀL\n\nIᴍ ᴀɴ ᴀwsᴏᴍᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴇɴᴀɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ\n\nPʀᴇss ʜᴇʟᴘ ᴛᴏ sᴇᴇ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ʜᴏᴡ ᴛʜᴇʏ ᴡᴏʀᴋ...\n\nMᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: [LᴀL](https://t.me/ddrabit)"
+    text = f"👋🏻 Hᴇʟʟᴏ {query.from_user.mention}\n\nIᴍ ᴀɴ ᴀwsᴏᴍᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴇɴᴀɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ\n\nPʀᴇss ʜᴇʟᴘ ᴛᴏ sᴇᴇ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ʜᴏᴡ ᴛʜᴇʏ ᴡᴏʀᴋ...\n\nMᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: [LᴀL](https://t.me/ddrabit)"
     await message.reply_text(text=text, reply_markup=InlineKeyboardMarkup(buttons))
 
 @Client.on_callback_query()
 async def cb_handler(client, query: CallbackQuery):
     data = query.data 
-    if data == "muneer":
+    if data == "start":
         await query.message.edit_text(
-            text=f"""👋 Hai {query.from_user.mention} \nIᴍ A Sɪᴍᴘʟᴇ Fɪʟᴇ Rᴇɴᴀᴍᴇ + Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ Cᴏᴠᴇʀᴛᴇʀ Bᴏᴛ Wɪᴛʜ Pᴇʀᴍᴀɴᴇɴᴛ Tʜᴜᴍʙɴᴀɪʟ & Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ Sᴜᴘᴘᴏʀᴛ! """,
+            text=f"""👋🏻 Hᴇʟʟᴏ {query.from_user.mention}\n\nIᴍ ᴀɴ ᴀwsᴏᴍᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴇɴᴀɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ\n\nPʀᴇss ʜᴇʟᴘ ᴛᴏ sᴇᴇ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ʜᴏᴡ ᴛʜᴇʏ ᴡᴏʀᴋ...\n\nMᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: [LᴀL](https://t.me/ddrabit)""",
             reply_markup=InlineKeyboardMarkup( [[
-                InlineKeyboardButton("👼 Dᴇᴠs 👼", callback_data='dev')                
+                InlineKeyboardButton("", callback_data='dev')                
                 ],[
-                InlineKeyboardButton('📢 Uᴘᴅᴀᴛᴇs', url='https://t.me/CS_TeamTG'),
-                InlineKeyboardButton('🍂 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/CS_TeamTG')
+                InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
+                InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                InlineKeyboardButton('🍃 Aʙᴏᴜᴛ', callback_data='about'),
-                InlineKeyboardButton('ℹ️ Hᴇʟᴘ', callback_data='help')
+                InlineKeyboardButton('', callback_data='about'),
+                InlineKeyboardButton('👨‍💻 ᴅᴇᴠᴏʟᴏᴘᴇʀs', url='https://t.me/ddrabit')
                 ]]
                 )
             )
