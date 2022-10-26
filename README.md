@@ -16,7 +16,7 @@ Telegram File Renamer Bot
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Shazard10/Pyro-Rename-Bot">
+<a href="https://heroku.com/deploy?template=https://github.com/Devikaiii/Rename">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
