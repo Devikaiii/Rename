@@ -82,7 +82,7 @@ async def rename_start(client, message):
         pass
 
 @Client.on_message(filters.command(commands=["hex"]) & filters.private)
-async def welcome(client,message):
+async def welcome(client, message):
     message.reply.text(text="Just send me a file.")
 
 @Client.on_callback_query()
