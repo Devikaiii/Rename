@@ -81,7 +81,7 @@ async def rename_start(client, message):
     except:
         pass
 
-@Client.on_message(filters.command(command=["start"]) & filters.private)
+@Client.on_message(filters.command(commands=["start"]) & filters.private)
 def welcome(client,message):
     message.reply.text(text="Just send me a file.")
 
