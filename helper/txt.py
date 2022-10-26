@@ -34,23 +34,15 @@ class mr(object):
 
     ABOUT_TXT = """
 
-<b>○ My Name: 𝗥𝗲𝗻𝗮𝗺𝗲 𝗕𝗼𝘁
-○ Developer: <a href=https://t.me/ddrabit>LᴀL</a>
-○ Language: Phython3
-○ Data Base: MongoDB
-○ Bot Server: Heroku
-○ Source Code: <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>Pyro Rename Bot</a></b>
+<b>◎ Nᴀᴍᴇ: <a href=http://t.me/cv_rename_bot?start=start>Rᴇɴᴀᴍᴇ Bᴏᴛ</a>
+◎ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/ddrabit>LᴀL</a>
+◎ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
+◎ Dᴀᴛᴀ Bᴀsᴇ: Mᴏɴɢᴏ DB
+◎ Bᴏᴛ Sᴇʀᴠᴇʀ: Hᴇʀᴏᴋᴜ
+◎ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ: <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>Cʟɪᴄᴋ Hᴇʀᴇ</a></b>
 
                                 """
-    HELP_TXT = """
-<b>Commands:</b>
-/set_thumb - Set Custon Thumbnail
-/viewthumb - View Thumbnail 
-/delthumb - Delete Thumbnail 
-/set_caption - Set a Custom Caption 
-/see_caption - See Custom Caption 
-/del_caption - Delete Custom Caption
-"""
+    HELP_TXT = """Welcome to the help menu."""
     DEV_TXT = """Hi hello"""
 
     RNAME_TXT = """<b>📝 Rename</b>
