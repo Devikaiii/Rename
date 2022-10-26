@@ -115,11 +115,11 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("", url="https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT")
+               InlineKeyboardButton("ʀᴇɴᴀᴍᴇ", callback_data= "rname")
+               InlineKeyboardButton("ᴛʜᴜᴍʙɴᴀɪʟ", callback_data= 'thembnail')
                ],[
-               InlineKeyboardButton("", url='https://t.me/CS_TeamTG')
+               InlineKeyboardButton("ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ", callback_data = "cuscap")
                ],[
-               InlineKeyboardButton("", callback_data = "close"),
                InlineKeyboardButton("« Back", callback_data = "start")
                ]]
             )
@@ -135,7 +135,7 @@ async def cb_handler(client, query: CallbackQuery):
                InlineKeyboardButton("", url="https://t.me/CS_TeamTG")
                ],[
                InlineKeyboardButton("", callback_data = "close"),
-               InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+               InlineKeyboardButton("« Back", callback_data = "start")
                ]]
             )
         )
@@ -148,7 +148,7 @@ async def cb_handler(client, query: CallbackQuery):
                InlineKeyboardButton("", url="https://t.me/CS_TeamTG")
                ],[
                InlineKeyboardButton("", callback_data = "close"),
-               InlineKeyboardButton("« Back", callback_data = "start")
+               InlineKeyboardButton("« Back", callback_data = "help")
                ]]
             )
         )
@@ -161,7 +161,7 @@ async def cb_handler(client, query: CallbackQuery):
                InlineKeyboardButton("", url="https://t.me/CS_TeamTG")
                ],[
                InlineKeyboardButton("", callback_data = "close"),
-               InlineKeyboardButton("«Back", callback_data = "start")
+               InlineKeyboardButton("« Back", callback_data = "help")
                ]]
             )
         )
@@ -174,7 +174,7 @@ async def cb_handler(client, query: CallbackQuery):
                InlineKeyboardButton("", url="https://t.me/CS_TeamTG")
                ],[
                InlineKeyboardButton("", callback_data = "close"),
-               InlineKeyboardButton("«Back", callback_data = "start")
+               InlineKeyboardButton("« Back", callback_data = "help")
                ]]
             )
         )
