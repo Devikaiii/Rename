@@ -34,15 +34,16 @@ class mr(object):
 
     ABOUT_TXT = """
 
-<b>My name: {}
-Creator: <a href=https://t.me/ddrabit>LᴀL</a> 
-Language: <a href=https://www.python.org>Python 3</a>
-Data Base: <a href=https://cloud.mongodb.com>MongoDB</a>
-Bot Server: <a href=https://dashboard.heroku.com>Heroku</a>       
-Source Code: <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>Pyro Rename Bot</a></b>
+<b>○ My Name: 𝗥𝗲𝗻𝗮𝗺𝗲 𝗕𝗼𝘁
+○ Developer: <a href=https://t.me/ddrabit>LᴀL</a>
+○ Language: Phython3
+○ Data Base: MongoDB
+○ Bot Server: Heroku
+○ Source Code: <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>Pyro Rename Bot</a></b>
 
                                 """
     HELP_TXT = """
+<b>Commands:</b>
 /set_thumb - Set Custon Thumbnail
 /viewthumb - View Thumbnail 
 /delthumb - Delete Thumbnail 
