@@ -50,14 +50,4 @@ Source Code: <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>Pyro Rena
 /see_caption - See Custom Caption 
 /del_caption - Delete Custom Caption
     DEV_TXT = """
-<b><u>Special Thanks & Developers</b></u> 
-
-Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : <a href=https://github.com/ChristeenaAchu/Pyro-ReName-BotV29>CS - Tᴇᴀᴍ Rᴇɴᴀᴍᴇ Bᴏᴛ</a>
-Rᴇᴀʟ Rᴇᴘᴏ : <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>Pʏʀᴏ Rᴇɴᴀᴍᴇ Bᴏᴛ</a>
-
-• ❣️ <a href=https://t.me/ddrabit>Bʟᴇʙᴇʀ</a>
-• ❣️ <a href=https://t.me/Heyboy2004>Hᴇʏ Bᴏʏ</a>
-• ❣️ <a href=https://t.me/DQ_1_2_3>Dϙ</a>
-• ❣️ <a href=https://t.me/NAZZY_FF>Nᴀᴀᴄʜᴜ</a>
-• ❣️ <a href=https://t.me/CS_Nikitha>Nɪᴋɪᴛʜᴀ</a>
-"""
+<b><u>Special Thanks & Developers</b></u>"""
