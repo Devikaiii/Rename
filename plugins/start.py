@@ -81,7 +81,7 @@ async def rename_start(client, message):
     except:
         pass
 
-@Client.on_message(filters.private & filters.command(["arun"]))
+@Client.on_message(filters.private & filters.command(["start"]))
 async def start(client, message):
     buttons  = [[ InlineKeyboardButton(text="help", callback_data = "help") ]]
     text = "send a file to get started"
@@ -90,7 +90,7 @@ async def start(client, message):
 @Client.on_callback_query()
 async def cb_handler(client, query: CallbackQuery):
     data = query.data 
-    if data == "start":
+    if data == "muneer":
         await query.message.edit_text(
             text=f"""👋 Hai {query.from_user.mention} \nIᴍ A Sɪᴍᴘʟᴇ Fɪʟᴇ Rᴇɴᴀᴍᴇ + Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ Cᴏᴠᴇʀᴛᴇʀ Bᴏᴛ Wɪᴛʜ Pᴇʀᴍᴀɴᴇɴᴛ Tʜᴜᴍʙɴᴀɪʟ & Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ Sᴜᴘᴘᴏʀᴛ! """,
             reply_markup=InlineKeyboardMarkup( [[
@@ -115,7 +115,7 @@ async def cb_handler(client, query: CallbackQuery):
                InlineKeyboardButton("💥 CS - Tᴇᴀᴍ Cʜᴀɴɴᴇʟ 💥", url='https://t.me/CS_TeamTG')
                ],[
                InlineKeyboardButton("🔒 Cʟᴏsᴇ", callback_data = "close"),
-               InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+               InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "arun")
                ]]
             )
         )
