@@ -53,13 +53,13 @@ class mr(object):
 """
     DEV_TXT = """Hi hello"""
 
-RNAME_TXT = """<b>📝 Rename</b>
+    RNAME_TXT = """<b>📝 Rename</b>
 
 Send your file and select rename option and enter a new name for your file.
 
 NB: Extentions is not required."""
 
-THUMB_TXT = """<b>🗂️ Thumbnail</b>
+    THUMB_TXT = """<b>🗂️ Thumbnail</b>
 
 Send an image it will be saved as your permenamt thumbnail.
 
@@ -69,7 +69,7 @@ Send an image it will be saved as your permenamt thumbnail.
 /viewthumb - View Thumbnail 
 /delthumb - Delete Thumbnail"""
 
-CUS_TXT = """<b>📁 File Caption.</b>
+    CUS_TXT = """<b>📁 File Caption.</b>
 
 You can customize the caption for files. And set any thing you want
 
