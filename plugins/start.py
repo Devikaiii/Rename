@@ -40,7 +40,7 @@ async def is_not_subscribed(client, message):
     text = "**Sᴏʀʀʏ Dᴜᴅᴇ Yᴏᴜʀ Nᴏᴛ Jᴏɪɴᴅ Mʏ Cʜᴀɴɴᴇʟ 😔. Pʟᴇᴀsᴇ Jᴏɪɴ Mʏ Cʜᴀɴɴᴇʟ Tᴏ Usᴇ Tʜɪs Bᴏᴛ 🙏 **"
     await message.reply_text(text=text, reply_markup=InlineKeyboardMarkup(buttons))
            
-@Client.on_message(filters.private & filters.command(["start"]))
+@Client.on_message(filters.private & filters.command(["hence"]))
 async def start(client, message):
     insert(int(message.chat.id))
     await message.reply_photo(
@@ -102,12 +102,9 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=f"""👋🏻 Hᴇʟʟᴏ {query.from_user.mention}\n\nIᴍ ᴀɴ ᴀwsᴏᴍᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴇɴᴀɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ\n\nPʀᴇss ʜᴇʟᴘ ᴛᴏ sᴇᴇ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ʜᴏᴡ ᴛʜᴇʏ ᴡᴏʀᴋ...\n\nMᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: [LᴀL](https://t.me/ddrabit)""",
             reply_markup=InlineKeyboardMarkup( [[
-                InlineKeyboardButton("", callback_data='dev')                
-                ],[
                 InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
                 InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                InlineKeyboardButton('', callback_data='about'),
                 InlineKeyboardButton('👨‍💻 ᴅᴇᴠᴏʟᴏᴘᴇʀs', url='https://t.me/ddrabit')
                 ]]
                 )
