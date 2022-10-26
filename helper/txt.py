@@ -26,44 +26,28 @@ License Link : https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT/blob/main/LICEN
 class mr(object):
     PROGRESS_BAR = """\n
 ╭━━━━❰Pʀᴏɢʀᴇss Bᴀʀ❱━➣
-┣⪼ 🗂️ : {1} | {2}
-┣⪼ ⏳️ : {0}%
+┣⪼ 📁 : {1} | {2}
+┣⪼ ⚡ : {0}%
 ┣⪼ 🚀 : {3}/s
 ┣⪼ ⏱️ : {4}
 ╰━━━━━━━━━━━━━━━➣ """
 
     ABOUT_TXT = """
-╭───────────⍟
-├🤖 Mʏ Nᴀᴍᴇ : {}
-├👑 Oᴡɴᴇʀ : <a href=https://t.me/Sanoob_Achu_18>Sᴀɴᴏᴏʙ 🇮🇳</a> 
-├✏️ Lᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>Pʏᴛʜᴏɴ 3</a>
-├💾 Dᴀᴛᴀ Bᴀsᴇ : <a href=https://cloud.mongodb.com>MᴀɴɢᴏDB</a>
-├🌀 Mʏ Sᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Hᴇʀᴏᴋᴜ</a>
-├📊 ʙᴜɪʟᴅ sᴛᴀᴜs : ᴠ3.6.8 [ ᴍᴀᴊᴏʀ ]              
-╰───────────────⍟
+
+<b>My name: {}
+Creator: <a href=https://t.me/ddrabit>LᴀL</a> 
+Language: <a href=https://www.python.org>Python 3</a>
+Data Base: <a href=https://cloud.mongodb.com>MongoDB</a>
+Bot Server: <a href=https://dashboard.heroku.com>Heroku</a>       
+Source Code: <a href=https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT>Pyro Rename Bot</a>
                                 """
     HELP_TXT = """
-🌌 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Tʜᴜᴍʙɴᴀɪʟ</u></b>
-  
-•> /start ᴀ ʙᴏᴛ ᴀɴᴅ sᴇɴᴅ ᴀɴʏ ᴘɪᴄᴛᴜʀᴇ ᴛᴏ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ sᴇᴛ ᴛʜᴜᴍʙɴɪʟᴇ.
-•> /delthumb ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴅᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴏʟᴅ ᴛʜᴜᴍʙɴɪʟᴇ.
-•> /viewthumb ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴠɪᴇᴡ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴛʜᴜᴍʙɴɪʟᴇ.
-
-📑 <b><u>Hᴏᴡ Tᴏ Sᴇᴛ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ</u></b>
-•> /set_caption - sᴇᴛ ᴀ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ
-•> /see_caption - sᴇᴇ ʏᴏᴜʀ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ
-•> /del_caption - ᴅᴇʟᴇᴛᴇ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ
-
-Exᴀᴍᴘʟᴇ:- /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
-💾 Sɪᴢᴇ: {filesize}
-⏰ Dᴜʀᴀᴛɪᴏɴ: {duration}
-
-✏️ <b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b>
-•> sᴇɴᴅ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ᴄʟɪᴄᴋ ʀᴇɴᴀᴍᴇ ᴏᴘᴛɪᴏɴ ᴀɴᴅ ᴛʏᴘᴇ ɴᴇᴡ ғɪʟᴇ ɴᴀᴍᴇ ᴀɴᴅ \n sᴇɴᴅ sᴇʟᴇᴄᴛ [ ᴅᴏᴄᴜᴍᴇɴᴛ, ᴠɪᴅᴇᴏ, ᴀᴜᴅɪᴏ ]👈 ᴄʜᴏɪᴄᴇ ᴛʜɪs.
-ℹ️ Aɴʏ Oᴛʜᴇʀ Hᴇʟᴘ Cᴏɴᴛᴀᴄᴛ :- <a href=https://t.me/Heyboy2004>Hᴇʏ Bᴏʏ 🇮🇳</a>
-"""
-
-#⚠️ don't remove our credits 🙏😢😢
+/set_thumb - Set Custon Thumbnail
+/viewthumb - View Thumbnail 
+/delthumb - Delete Thumbnail 
+/set_caption - Set a Custom Caption 
+/see_caption - See Custom Caption 
+/del_caption - Delete Custom Caption
     DEV_TXT = """
 <b><u>Special Thanks & Developers</b></u> 
 
