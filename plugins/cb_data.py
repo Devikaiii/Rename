@@ -21,7 +21,7 @@ async def rename(bot,update):
 	user_id = update.message.chat.id
 	date = update.message.date
 	await update.message.delete()
-	await update.message.reply_text("__ꜱᴇɴᴅ ɴᴇᴡ ꜰɪʟᴇ ɴᴀᴍᴇ ꜰᴏʀ ᴛʜᴇ ꜰɪʟᴇ__",	
+	await update.message.reply_text("**ꜱᴇɴᴅ ɴᴇᴡ ꜰɪʟᴇ ɴᴀᴍᴇ ꜰᴏʀ ᴛʜᴇ ꜰɪʟᴇ**",	
 	reply_to_message_id=update.message.reply_to_message.id,  
 	reply_markup=ForceReply(True))
 	
