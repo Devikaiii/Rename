@@ -63,6 +63,31 @@ Send an image it will be saved as your Permenamt Thumbnail.
 
     CUS_TXT = """<b>📁 File Caption.</b>
 
+You can customize the caption for files. And set any thing you want.
+
+<b>Commands and Usage:</b>
+
+/set_caption - Set a Custom Caption 
+/see_caption - See Custom Caption 
+/del_caption - Delete Custom Caption
+
+Available Keys: filename , filesize , Duration
+
+eg: <code>/set_caption {filename}</code>
+
+<b>FORMATTING.</b>
+
+You can format your message using <b>bold</b>, <i>italics</i>, <u>underline</u> and <code>monospace</code>.
+
+<b>Supported Formats:</b>
+
+<%b>Bold Words<%/b>
+<%i>Italic words<%/i>
+<%u>Underline<%/u>
+<%code>Monospace<%/code>"""
+
+    CUS_TXT = """<b>📁 File Caption.</b>
+
 You can customize the caption for files. And set any thing you want
 
 <b>Commands and Usage:</b>
