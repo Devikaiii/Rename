@@ -86,7 +86,7 @@ You can format your message using <b>bold</b>, <i>italics</i>, <u>underline</u> 
 <%u>Underline<%/u>
 <%code>Monospace<%/code>"""
 
-    CUS_TXT = """<b>📁 File Caption.</b>
+    X_TXT = """<b>📁 File Caption.</b>
 
 You can customize the caption for files. And set any thing you want
 
