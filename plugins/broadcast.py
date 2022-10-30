@@ -50,4 +50,4 @@ async def get_users(client: Client, message: Message):
     msg = await client.send_message(chat_id=message.chat.id, text="weit....")
     ids = getid()
     tot = len(ids)
-    await msg.edit(f"Total uses = {tot}")
+    await msg.edit(f"Total users = {tot}")
