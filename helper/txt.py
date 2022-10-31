@@ -69,6 +69,7 @@ You can customize the caption for files. And set any thing you want.
 /set_caption - <code>To Set Caption</code>
 /see_caption - <code>To See Caption</code>
 /del_caption - <code>To Delete Saved Caption</code>
+
 Available Keys: filename , filesize , Duration
 
 eg: <code>/set_caption {filename}</code>"""
