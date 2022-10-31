@@ -68,15 +68,15 @@ async def rename_start(client, message):
     fileid = file.file_id
     try:
         text = f"""**File Name**: `{filename}`\n\n**File Size**: `{filesize}`"""
-        buttons = [[ InlineKeyboardButton("✍️ 𝗥𝗘𝗡𝗔𝗠𝗘", callback_data="rename") ],
-                   [ InlineKeyboardButton("❌ 𝗖𝗔𝗡𝗖𝗘𝗟 ❌", callback_data="cancel") ]]
+        buttons = [[ InlineKeyboardButton("✍︎ ʀᴇɴᴀᴍᴇ", callback_data="rename"), ],
+                   [ InlineKeyboardButton("x̸ ᴄᴀɴᴄᴇʟ", callback_data="cancel") ]]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
         await sleep(FLOOD)
     except FloodWait as e:
         await sleep(e.x)
         text = f"""**File Name**: `{filename}`\n\n**File Size**: `{filesize}`"""
-        buttons = [[ InlineKeyboardButton("✍️ 𝗥𝗘𝗡𝗔𝗠𝗘", callback_data="rename") ],
-                   [ InlineKeyboardButton("❌ 𝗖𝗔𝗡𝗖𝗘𝗟 ❌", callback_data="cancel") ]]
+        buttons = [[ InlineKeyboardButton("✍︎ ʀᴇɴᴀᴍᴇ", callback_data="rename"), ],
+                   [ InlineKeyboardButton("x̸ ᴄᴀɴᴄᴇʟ", callback_data="cancel") ]]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
     except:
         pass
