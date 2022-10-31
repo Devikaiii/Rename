@@ -57,9 +57,8 @@ Send an image it will be saved as your Permenamt Thumbnail.
 
 <b><u>Commands and Usage:</u></b>
 
-/set_thumb - <code>Set Thumbnail</code>
-/viewthumb - <code>View Thumbnail</code>
-/delthumb - <code>Delete Thumbnail</code>"""
+/viewthumb - <code>To View Thumbnail</code>
+/delthumb - <code>To Delete Saved Thumbnail</code>"""
 
     CUS_TXT = """<b>📁 Caption</b>
 
@@ -67,10 +66,9 @@ You can customize the caption for files. And set any thing you want.
 
 <b><u>Commands and Usage:</u></b>
 
-/set_caption - Set a Custom Caption 
-/see_caption - See Custom Caption 
-/del_caption - Delete Custom Caption
-
+/set_caption - <code>To Set Caption</code>
+/see_caption - <code>To See Caption</code>
+/del_caption - <code>To Delete Saved Caption</code>
 Available Keys: filename , filesize , Duration
 
 eg: <code>/set_caption {filename}</code>"""
