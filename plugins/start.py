@@ -112,7 +112,7 @@ async def cb_handler(client, query: CallbackQuery):
         return
     elif data == "help":
         await query.message.edit_text(
-            text=f"Hey {message.from_user.mention}\n\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ.\n\nᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ sᴇᴇ ᴜsᴀɢᴇs ᴏꜰ sᴘᴇᴄꜰɪᴄ ᴍᴏᴅᴜʟᴇs..",
+            text=f"Hey {query.from_user.mention}\n\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ.\n\nᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ sᴇᴇ ᴜsᴀɢᴇs ᴏꜰ sᴘᴇᴄꜰɪᴄ ᴍᴏᴅᴜʟᴇs..",
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
                InlineKeyboardButton("ʀᴇɴᴀᴍᴇ", callback_data = "rname"),
