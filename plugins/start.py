@@ -117,7 +117,7 @@ async def cb_handler(client, query: CallbackQuery):
                #⚠️ don't change source code & source link ⚠️ #
                InlineKeyboardButton("ʀᴇɴᴀᴍᴇ", callback_data = "rname"),
                InlineKeyboardButton("ᴛʜᴜᴍʙɴᴀɪʟ", callback_data = 'thembnail'),
-               InlineKeyboardButton("ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ", callback_data = "cuscap")
+               InlineKeyboardButton("ᴄᴀᴘᴛɪᴏɴ", callback_data = "cuscap")
                ],[
                InlineKeyboardButton("« Back", callback_data = "start")
                ]]
