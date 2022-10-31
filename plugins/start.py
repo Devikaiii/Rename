@@ -70,8 +70,8 @@ async def rename_start(client, message):
         text = f"""**File Name**: `{filename}`\n\n**File Size**: `{filesize}`"""
         buttons =  [
             [
-                InlineKeyboardButton('📝 𝗥𝗘𝗡𝗔𝗠𝗘', callback_data='help'),
-                InlineKeyboardButton('❌ 𝗖𝗔𝗡𝗖𝗘𝗟', callback_data='about')
+                InlineKeyboardButton('📝 𝗥𝗘𝗡𝗔𝗠𝗘', callback_data='rname'),
+                InlineKeyboardButton('❌ 𝗖𝗔𝗡𝗖𝗘𝗟', callback_data='cancel')
             ],
             [
                 InlineKeyboardButton('', url='https://t.me/ddrabit/19')
@@ -84,8 +84,8 @@ async def rename_start(client, message):
         text = f"""**File Name**: `{filename}`\n\n**File Size**: `{filesize}`"""
         buttons = [
             [
-                InlineKeyboardButton('📝 𝗥𝗘𝗡𝗔𝗠𝗘', callback_data='help'),
-                InlineKeyboardButton('❌ 𝗖𝗔𝗡𝗖𝗘𝗟', callback_data='about')
+                InlineKeyboardButton('📝 𝗥𝗘𝗡𝗔𝗠𝗘', callback_data='rname'),
+                InlineKeyboardButton('❌ 𝗖𝗔𝗡𝗖𝗘𝗟', callback_data='cancel')
             ],
             [
                 InlineKeyboardButton('', url='https://t.me/ddrabit/19')
