@@ -99,11 +99,11 @@ async def rename_start(client, message):
 async def start(client, message):
     buttons = [
             [
-                InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
-                InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
+                InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+                InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],
             [
-                InlineKeyboardButton('🧞‍♂️ ᴅᴇᴠᴏʟᴏᴘᴇʀ', url='https://t.me/ddrabit/19')
+                InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
             ]
             ]
     text = f"👋🏻 Hᴇʟʟᴏ {message.from_user.mention}\n\nIᴍ ᴀɴ ᴀwsᴏᴍᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴇɴᴀɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ\n\nPʀᴇss ʜᴇʟᴘ ᴛᴏ sᴇᴇ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs...\n\n**Mᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: [LᴀL](https://t.me/ddrabit/19)**"
@@ -116,10 +116,10 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=f"""👋🏻 Hᴇʟʟᴏ {query.from_user.mention}\n\nIᴍ ᴀɴ ᴀwsᴏᴍᴇ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴇɴᴀɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ\n\nPʀᴇss ʜᴇʟᴘ ᴛᴏ sᴇᴇ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs...\n\n**Mᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: [LᴀL](https://t.me/ddrabit/19)**""",
             reply_markup=InlineKeyboardMarkup( [[
-                InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
-                InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
+                InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+                InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                InlineKeyboardButton('🧞‍♂️ ᴅᴇᴠᴏʟᴏᴘᴇʀ', url='https://t.me/ddrabit/19')
+                InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
                 ]]
                 )
             )
