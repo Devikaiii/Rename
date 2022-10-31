@@ -115,9 +115,9 @@ async def cb_handler(client, query: CallbackQuery):
             text=f"Hey {query.from_user.mention}\n\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴇɴᴜ.\n\nᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ sᴇᴇ ᴜsᴀɢᴇs ᴏꜰ sᴘᴇᴄꜰɪᴄ ᴍᴏᴅᴜʟᴇs..",
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("🦉 ʀᴇɴᴀᴍᴇ", callback_data = "rname"),
-               InlineKeyboardButton("🦦 ᴛʜᴜᴍʙɴᴀɪʟ", callback_data = 'thembnail'),
-               InlineKeyboardButton("🦅 ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ", callback_data = "cuscap")
+               InlineKeyboardButton("ʀᴇɴᴀᴍᴇ", callback_data = "rname"),
+               InlineKeyboardButton("ᴛʜᴜᴍʙɴᴀɪʟ", callback_data = 'thembnail'),
+               InlineKeyboardButton("ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ", callback_data = "cuscap")
                ],[
                InlineKeyboardButton("« Back", callback_data = "start")
                ]]
