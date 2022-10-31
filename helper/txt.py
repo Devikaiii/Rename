@@ -49,23 +49,23 @@ class mr(object):
 
 Send your file and select rename option and enter a new name for your file.
 
-NB: Extentions is not required."""
+NB: Extentions not required."""
 
     THUMB_TXT = """<b>🗂️ Thumbnail</b>
 
 Send an image it will be saved as your Permenamt Thumbnail.
 
-<b>Commands and usage:</b>
+<b><u>Commands and Usage:</u></b>
 
-/set_thumb - Set Thumbnail
-/viewthumb - View Thumbnail 
-/delthumb - Delete Thumbnail"""
+/set_thumb - <code>Set Thumbnail</code>
+/viewthumb - <code>View Thumbnail</code>
+/delthumb - <code>Delete Thumbnail</code>"""
 
-    CUS_TXT = """<b>📁 File Caption.</b>
+    CUS_TXT = """<b>📁 Caption</b>
 
 You can customize the caption for files. And set any thing you want.
 
-<b>Commands and Usage:</b>
+<b><u>Commands and Usage:</u></b>
 
 /set_caption - Set a Custom Caption 
 /see_caption - See Custom Caption 
@@ -73,18 +73,7 @@ You can customize the caption for files. And set any thing you want.
 
 Available Keys: filename , filesize , Duration
 
-eg: <code>/set_caption {filename}</code>
-
-<b>FORMATTING.</b>
-
-You can format your message using <b>bold</b>, <i>italics</i>, <u>underline</u> and <code>monospace</code>.
-
-<b>Supported Formats:</b>
-
-<%b>Bold Words<%/b>
-<%i>Italic words<%/i>
-<%u>Underline<%/u>
-<%code>Monospace<%/code>"""
+eg: <code>/set_caption {filename}</code>"""
 
     X_TXT = """<b>📁 File Caption.</b>
 
