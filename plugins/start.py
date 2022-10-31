@@ -68,21 +68,29 @@ async def rename_start(client, message):
     fileid = file.file_id
     try:
         text = f"""**File Name**: `{filename}`\n\n**File Size**: `{filesize}`"""
-        buttons =  [[ InlineKeyboardMarkup( [[
-                InlineKeyboardButton('✍︎ ʀᴇɴᴀᴍᴇ', callback_data='help'),
-                InlineKeyboardButton('x̸ ᴄᴀɴᴄᴇʟ', callback_data='about')
-                )
-            )
+        buttons =  [
+            [
+                InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
+                InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
+            ],
+            [
+                InlineKeyboardButton('', url='https://t.me/ddrabit/19')
+            ]
+            ]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
         await sleep(FLOOD)
     except FloodWait as e:
         await sleep(e.x)
         text = f"""**File Name**: `{filename}`\n\n**File Size**: `{filesize}`"""
-        buttons = [[ InlineKeyboardMarkup( [[
-                InlineKeyboardButton('✍︎ ʀᴇɴᴀᴍᴇ', callback_data='help'),
-                InlineKeyboardButton('x̸ ᴄᴀɴᴄᴇʟ', callback_data='about')
-                )
-            )
+        buttons = [
+            [
+                InlineKeyboardButton('🛠️ ʜᴇʟᴘ', callback_data='help'),
+                InlineKeyboardButton('🛡️ ᴀʙᴏᴜᴛ', callback_data='about')
+            ],
+            [
+                InlineKeyboardButton('', url='https://t.me/ddrabit/19')
+            ]
+            ]
         await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
     except:
         pass
